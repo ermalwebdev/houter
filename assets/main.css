@@ -1081,7 +1081,7 @@ body {
 @media only screen and (max-width: 991px) {
 	body {
 		position: relative;
-		/* overflow-y: hidden; */
+		overflow-y: hidden;
 		-webkit-overflow-scrolling: touch;
 	}
 	.header {
