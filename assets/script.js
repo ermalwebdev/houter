@@ -159,7 +159,12 @@ hamburgerIcon.forEach(index => {
 		if (hamburgerIcon[0].classList.contains("active")) {
 			hamburgerIcon[0].classList.remove("active");
 			hamburgerIcon[1].classList.add("active");
-			document.querySelector("body").style.overflowY = "hidden";
+			document.querySelector("html").style.position = "fixed";
+			document.querySelector("html").style.height = "100%";
+			document.querySelector("html").style.overflow = "hidden";
+			document.querySelector("body").style.overflowY = "auto";
+			document.querySelector("body").style.overflowX = "hidden";
+			document.querySelector("body").style.webkitOverflowScrolling = "touch";
 			document.querySelector(".nav_header").style.display = "block";
 		} else {
 			console.log("ermal");
