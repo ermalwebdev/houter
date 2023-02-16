@@ -26,6 +26,9 @@ body {
 	width: 100%;
 	height: auto;
 }
+.scrollYHidden {
+	-webkit-overflow-scrolling: touch;
+}
 .fixed-container {
 	width: 88%;
 	margin: 0 auto;
