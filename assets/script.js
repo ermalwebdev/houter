@@ -159,8 +159,6 @@ hamburgerIcon.forEach(index => {
 		if (hamburgerIcon[0].classList.contains("active")) {
 			hamburgerIcon[0].classList.remove("active");
 			hamburgerIcon[1].classList.add("active");
-			document.querySelector("body").style.overflowY = "hidden";
-			document.querySelector("body").classList.add("scrollYHidden");
 			document.querySelector("body").style.height = "100vh";
 			document.querySelector(".nav_header").style.display = "block";
 		} else {
