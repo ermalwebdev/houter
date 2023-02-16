@@ -162,13 +162,17 @@ hamburgerIcon.forEach(index => {
 	index.addEventListener("click", function () {
 		if (hamburgerIcon[0].classList.contains("active")) {
 			if (isMobile) {
+				console.log("ermal")
+				document.querySelector("html").style.height = "100vh";
 				document.querySelector("body").style.height = "100vh";
 				document.querySelector("body").style.overflowY = "hidden";
-			}
-			hamburgerIcon[0].classList.remove("active");
+			}else {
+				hamburgerIcon[0].classList.remove("active");
 			hamburgerIcon[1].classList.add("active");
 			document.querySelector("body").style.overflowY = "hidden";
 			document.querySelector(".nav_header").style.display = "block";
+			}
+			
 		} else {
 			console.log("ermal");
 			hamburgerIcon[1].classList.remove("active");
