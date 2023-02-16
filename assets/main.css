@@ -1079,11 +1079,6 @@ body {
 
 /* Tablet (portrait and landscape) */
 @media only screen and (max-width: 991px) {
-	body {
-		overflow-y: hidden;
-overflow-x: scroll; 
--webkit-overflow-scrolling: touch;
-	}
 	.header {
 		position: static;
 	}
