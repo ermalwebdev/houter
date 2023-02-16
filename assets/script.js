@@ -160,11 +160,13 @@ hamburgerIcon.forEach(index => {
 			hamburgerIcon[0].classList.remove("active");
 			hamburgerIcon[1].classList.add("active");
 			document.querySelector("body").style.overflowY = "hidden";
+			document.querySelector("body").style.height = "100vh";
 			document.querySelector(".nav_header").style.display = "block";
 		} else {
 			console.log("ermal");
 			hamburgerIcon[1].classList.remove("active");
 			hamburgerIcon[0].classList.add("active");
+			document.querySelector("body").style.height = "auto";
 			document.querySelector("body").style.overflowY = "";
 			document.querySelector(".nav_header").style.display = "";
 		}
