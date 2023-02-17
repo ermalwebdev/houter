@@ -152,21 +152,18 @@ video.on("ended", function () {
 	video.load();
 });
 
-const hamburgerIcon = document.querySelectorAll(".svg_icon_burger");
+const hamburgerOpenClose = document.querySelector(".hamburger_link");
 const menuContainer = document.querySelector(".nav_header");
+const hamburgerIcon = document.querySelectorAll(".svg_icon_burger");
 
-hamburgerIcon.forEach(index => {
-	index.addEventListener("click", function (e) {
-		if (e.target.classList.contains("active")) {
-			e.target.classList.remove("active");
-			hamburgerIcon[1].classList.add("active");
-			menuContainer.style.display = "block";
-			document.querySelector("html").style.overflowY = "hidden";
-		} else {
-			hamburgerIcon[1].classList.remove("active");
-			hamburgerIcon[0].classList.add("active");
-			menuContainer.style.display = "none";
-			document.querySelector("html").style.overflowY = "";
-		}
-	});
+hamburgerOpenClose.addEventListener("click", function () {
+	if (hamburgerIcon[0].classList.contains("active")) {
+		hamburgerIcon[0].classList.remove("active");
+		hamburgerIcon[1].classList.add("active");
+		menuContainer.style.display = "block";
+	} else {
+		hamburgerIcon[1].classList.remove("active");
+		hamburgerIcon[0].classList.add("active");
+		menuContainer.style.display = "none";
+	}
 });
