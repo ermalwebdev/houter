@@ -161,9 +161,11 @@ hamburgerOpenClose.addEventListener("click", function () {
 		hamburgerIcon[0].classList.remove("active");
 		hamburgerIcon[1].classList.add("active");
 		menuContainer.style.display = "block";
+		document.querySelector("body").style.position = "fixed";
 	} else {
 		hamburgerIcon[1].classList.remove("active");
 		hamburgerIcon[0].classList.add("active");
 		menuContainer.style.display = "none";
+		document.querySelector("body").style.position = "";
 	}
 });
