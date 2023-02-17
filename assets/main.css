@@ -948,6 +948,13 @@ background-color: transparent;
 		.blog_top_left {
 	width: 100%
 	}
+	.article_right_picture {
+	max-width: 400px;
+	}
+	.article_right_img {
+	display: inline-block;
+	width: 100%;
+	}
 }
 /* Desktop */
 @media only screen and (max-width: 1199px) {
