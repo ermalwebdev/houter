@@ -224,6 +224,7 @@ background-color: transparent;
 	background-size: cover;
 	height: 800px;
 	width: 40%;
+	overflow: hidden;
 }
 .carousel_container {
 	display: flex;
