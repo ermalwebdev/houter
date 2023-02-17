@@ -164,6 +164,7 @@ hamburgerOpenClose.addEventListener("click", function () {
 		document.querySelector("html").style.height = "100vh";
 		document.querySelector("body").style.height = "100vh";
 		document.querySelector("body").style.overflowY = "hidden";
+		document.querySelector("body").style.position = "fixed";
 	} else {
 		hamburgerIcon[1].classList.remove("active");
 		hamburgerIcon[0].classList.add("active");
@@ -171,5 +172,6 @@ hamburgerOpenClose.addEventListener("click", function () {
 		document.querySelector("html").style.height = "";
 		document.querySelector("body").style.height = "";
 		document.querySelector("body").style.overflowY = "";
+		document.querySelector("body").style.position = "";
 	}
 });
