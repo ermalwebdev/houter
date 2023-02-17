@@ -26,7 +26,7 @@ body {
 	width: 100%;
 	height: auto;
 }
-.input {
+input {
 background-color: transparent;
 }
 .fixed-container {
