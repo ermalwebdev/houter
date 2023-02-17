@@ -1306,7 +1306,7 @@ background-color: transparent;
 		max-width: 380px;
 	}
 }
-@media only screen and (max-width: 500px){
+@media only screen and (max-width: 375px){
 	.btns_selection {
 	 padding: 5px 10px;
 	}
