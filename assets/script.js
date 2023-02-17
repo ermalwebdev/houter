@@ -163,11 +163,13 @@ hamburgerOpenClose.addEventListener("click", function () {
 		menuContainer.style.display = "block";
 		document.querySelector("html").style.height = "100vh";
 		document.querySelector("body").style.height = "100vh";
+		document.querySelector("body").style.overflowY = "hidden";
 	} else {
 		hamburgerIcon[1].classList.remove("active");
 		hamburgerIcon[0].classList.add("active");
 		menuContainer.style.display = "none";
 		document.querySelector("html").style.height = "";
 		document.querySelector("body").style.height = "";
+		document.querySelector("body").style.overflowY = "";
 	}
 });
