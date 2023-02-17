@@ -1310,4 +1310,7 @@ background-color: transparent;
 	.btns_selection {
 	 padding: 5px 10px;
 	}
+	.house_details {
+	grid-template-columns: repeat(2, minmax(150px, 1fr));
+	}
 }
