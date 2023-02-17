@@ -161,17 +161,9 @@ hamburgerOpenClose.addEventListener("click", function () {
 		hamburgerIcon[0].classList.remove("active");
 		hamburgerIcon[1].classList.add("active");
 		menuContainer.style.display = "block";
-		document.querySelector("html").style.height = "100vh";
-		document.querySelector("body").style.height = "100vh";
-		document.querySelector("html").style.overflowY = "hidden";
-		document.querySelector("html").style.position = "fixed";
 	} else {
 		hamburgerIcon[1].classList.remove("active");
 		hamburgerIcon[0].classList.add("active");
 		menuContainer.style.display = "none";
-		document.querySelector("html").style.height = "";
-		document.querySelector("body").style.height = "";
-		document.querySelector("html").style.overflowY = "";
-		document.querySelector("html").style.position = "";
 	}
 });
