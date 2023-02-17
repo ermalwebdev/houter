@@ -3,6 +3,7 @@ const sliderTop = document.querySelector(".carousel_container");
 const carouselItems = document.querySelectorAll(".carousel_items");
 const lastCarouselItem = carouselItems[carouselItems.length - 1];
 
+document.querySelector("body").style.bottom = "-5064.160";
 let isPressed = false;
 let cursorX;
 let isatEnd = true;
@@ -162,7 +163,6 @@ hamburgerOpenClose.addEventListener("click", function () {
 		hamburgerIcon[1].classList.add("active");
 		menuContainer.style.display = "block";
 		document.querySelector("body").style.position = "fixed";
-		document.querySelector("body").style.bottom = "-5064.160";
 	} else {
 		hamburgerIcon[1].classList.remove("active");
 		hamburgerIcon[0].classList.add("active");
