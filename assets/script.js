@@ -161,14 +161,13 @@ hamburgerOpenClose.addEventListener("click", function () {
 		hamburgerIcon[0].classList.remove("active");
 		hamburgerIcon[1].classList.add("active");
 		menuContainer.style.display = "block";
-		document.querySelector("html").style.overflow = "hidden";
-		document.querySelector("body").style.position = "fixed";
-		document.querySelector("body").style.top = "0px";
+		document.querySelector("html").style.overflowY = "hidden";
+		document.querySelector("body").style.overflowY = "hidden";
 	} else {
 		hamburgerIcon[1].classList.remove("active");
 		hamburgerIcon[0].classList.add("active");
 		menuContainer.style.display = "none";
-		document.querySelector("html").style.overflow = "";
-		document.querySelector("body").style.position = "";
+	document.querySelector("html").style.overflowY = "";
+		document.querySelector("body").style.overflowY = "";
 	}
 });
