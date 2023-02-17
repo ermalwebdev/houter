@@ -162,14 +162,12 @@ hamburgerOpenClose.addEventListener("click", function () {
 		hamburgerIcon[1].classList.add("active");
 		menuContainer.style.display = "block";
 		document.querySelector("html").style.overflow = "hidden";
-		document.querySelector("html").style.position = "fixed";
 		document.querySelector("body").style.position = "fixed";
 	} else {
 		hamburgerIcon[1].classList.remove("active");
 		hamburgerIcon[0].classList.add("active");
 		menuContainer.style.display = "none";
 		document.querySelector("html").style.overflow = "";
-		document.querySelector("html").style.position = "";
 		document.querySelector("body").style.position = "";
 	}
 });
