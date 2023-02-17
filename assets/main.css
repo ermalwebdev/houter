@@ -26,6 +26,7 @@ body {
 	width: 100%;
 	height: auto;
 }
+input {-webkit-appearance: none;}
 .fixed-container {
 	width: 88%;
 	margin: 0 auto;
