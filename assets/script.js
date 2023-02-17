@@ -162,10 +162,12 @@ hamburgerOpenClose.addEventListener("click", function () {
 		hamburgerIcon[1].classList.add("active");
 		menuContainer.style.display = "block";
 		document.querySelector("body").style.position = "fixed";
+		document.querySelector("body").style.bottom = "-5064.160";
 	} else {
 		hamburgerIcon[1].classList.remove("active");
 		hamburgerIcon[0].classList.add("active");
 		menuContainer.style.display = "none";
 		document.querySelector("body").style.position = "";
+		document.querySelector("body").style.bottom = "";
 	}
 });
