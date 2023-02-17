@@ -161,8 +161,8 @@ hamburgerOpenClose.addEventListener("click", function () {
 		hamburgerIcon[0].classList.remove("active");
 		hamburgerIcon[1].classList.add("active");
 		menuContainer.style.display = "block";
-		document.querySelector("html").style.height = "100vh!important";
-		document.querySelector("body").style.height = "100vh!important";
+		document.querySelector("html").style.height = "100vh";
+		document.querySelector("body").style.height = "100vh";
 	} else {
 		hamburgerIcon[1].classList.remove("active");
 		hamburgerIcon[0].classList.add("active");
