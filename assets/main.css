@@ -1313,4 +1313,7 @@ background-color: transparent;
 	.house_details {
 	grid-template-columns: repeat(2, minmax(150px, 1fr));
 	}
+	.subscribe_section {
+	 background: none;
+	}
 }
