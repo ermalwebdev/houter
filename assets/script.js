@@ -163,6 +163,7 @@ hamburgerOpenClose.addEventListener("click", function () {
 		menuContainer.style.display = "block";
 		document.querySelector("html").style.overflow = "hidden";
 		document.querySelector("body").style.position = "fixed";
+		document.querySelector("body").style.top = "0px";
 	} else {
 		hamburgerIcon[1].classList.remove("active");
 		hamburgerIcon[0].classList.add("active");
