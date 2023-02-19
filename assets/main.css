@@ -41,6 +41,13 @@ body {
 	justify-content: space-between;
 	padding-top: 40px;
 }
+.wrapper-fixed {
+	position: fixed;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+}
 .blog_top_left {
 width: 100%;
 }
