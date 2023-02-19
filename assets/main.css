@@ -964,6 +964,9 @@ background-color: transparent;
 /* Desktop */
 @media only screen and (max-width: 1199px) {
 	/* styles here */
+		body {
+		min-width: 500px;
+	}
 	.hamburger_icon_container {
 		display: block;
 		position: relative;
