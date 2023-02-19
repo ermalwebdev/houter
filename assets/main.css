@@ -31,6 +31,7 @@ html::-webkit-scrollbar-thumb {
 	background-clip: content-box;
 }
 body {
+	-webkit-overflow-scrolling: touch;
 	scroll-behavior: smooth;
 	position: relative;
 	margin: 0 auto;
