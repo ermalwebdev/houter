@@ -512,7 +512,7 @@ body {
 	list-style-type: none;
 	display: grid;
 	row-gap: 16px;
-	grid-template-columns: repeat(2, minmax(200px, 1fr));
+	grid-template-columns: repeat(2, minmax(150px, 1fr));
 }
 .house_details_title {
 	margin: 16px 0;
