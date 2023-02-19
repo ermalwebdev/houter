@@ -17,6 +17,9 @@ picture,
 img {
 	padding: 0;
 	margin: 0;
+}]
+html {
+ overflow: scroll;
 }
 body {
 	overflow-y: scroll;
@@ -957,9 +960,7 @@ body {
 /* Desktop */
 @media only screen and (max-width: 1199px) {
 	/* styles here */
-	body {
-	width: 100vh;
-	}
+	
 	.hamburger_icon_container {
 		display: block;
 		position: relative;
