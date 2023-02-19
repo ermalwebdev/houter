@@ -42,6 +42,9 @@ body {
 .blog_top_left {
 width: 100%;
 }
+input {
+background-color: transparent;
+}
 .logo_container {
 	display: flex;
 	align-items: center;
