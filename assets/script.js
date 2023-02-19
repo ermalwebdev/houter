@@ -19,13 +19,14 @@ const imageVideo = document.querySelector(".image_preview_container");
 // JavaScript Free Hand
 
 // Hamburger Menu
+const scrollbarWidth = document.html.offsetWidth - document.html.clientWidth;
 hamburgerOpenClose.addEventListener("click", function () {
 	if (hamburgerIcon[0].classList.contains("active")) {
 		hamburgerIcon[0].classList.remove("active");
 		hamburgerIcon[1].classList.add("active");
 		menuContainer.style.display = "block";
 		document.querySelector("html").style.overflowY = "hidden";
-		document.querySelector("body").style.overflow = "visible";
+		document.querySelector("html").style.scrollbarWidth = "scrollbarWidth";
 		document.querySelector("body").style.position = "fixed";
 	} else {
 		hamburgerIcon[1].classList.remove("active");
