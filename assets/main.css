@@ -959,9 +959,11 @@ body {
 /* Desktop */
 @media only screen and (max-width: 1199px) {
 	/* styles here */
-	body,
 	html {
-		max-width: 1199px;
+		min-width: 500px;
+	}
+	body {
+		width: 100%;
 	}
 	.hamburger_icon_container {
 		display: block;
@@ -1061,9 +1063,11 @@ body {
 @media only screen and (max-width: 991px) {
 	/* styles here */
 	/* styles here */
-	body,
 	html {
-		max-width: 991px;
+		min-width: 991px;
+	}
+	body {
+		width: 100%;
 	}
 	.mg_top,
 	.feature-houses,
@@ -1135,9 +1139,11 @@ body {
 /* Smartphone (landscape) */
 @media only screen and (max-width: 767px) {
 	/* styles here */
-	body,
 	html {
-		max-width: 767px;
+		min-width: 767px;
+	}
+	body {
+		width: 100%;
 	}
 	.left_main,
 	.more_articles_left,
@@ -1211,9 +1217,11 @@ body {
 
 /* Smartphone (portrait and landscape) */
 @media only screen and (max-width: 500px) {
-	body,
 	html {
-		max-width: 500px;
+		min-width: 500px;
+	}
+	body {
+		width: 100%;
 	}
 	.main_section {
 		padding: 0;
