@@ -25,16 +25,14 @@ hamburgerOpenClose.addEventListener("click", function () {
 		hamburgerIcon[0].classList.remove("active");
 		hamburgerIcon[1].classList.add("active");
 		menuContainer.style.display = "block";
-		document.querySelector("html").style.overflowY = "hidden";
-		document.querySelector("body").style.paddingRight = "15px";
-		document.querySelector("body").style.position = "fixed";
+		document.querySelector("body").style.overflow = "hidden";
+		document.querySelector(".wrapper").classList.add("wrapper-fixed");
 	} else {
 		hamburgerIcon[1].classList.remove("active");
 		hamburgerIcon[0].classList.add("active");
 		menuContainer.style.display = "none";
-		document.querySelector("html").style.overflowY = "scroll";
-		document.querySelector("body").style.paddingRight = "";
-		document.querySelector("body").style.position = "";
+document.querySelector(".wrapper").style.paddingRight = "";
+		document.querySelector(".wrapper").classList.remove("wrapper-fixed");
 	}
 });
 const menuMediaQuery = window.matchMedia("(min-width: 1200px)");
