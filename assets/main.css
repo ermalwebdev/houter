@@ -86,7 +86,9 @@ body {
 .list_hader:not(:last-child) {
 	margin-right: 24px;
 }
-
+input {
+ background-color: transparent;
+}
 .link_header {
 	display: inline-block;
 	padding: 8px 16px;
