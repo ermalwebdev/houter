@@ -965,7 +965,7 @@ background-color: transparent;
 @media only screen and (max-width: 1199px) {
 	/* styles here */
 		body {
-		min-width: 500px;
+		min-width: 1199px;
 	}
 	.hamburger_icon_container {
 		display: block;
@@ -1065,7 +1065,9 @@ background-color: transparent;
 @media only screen and (max-width: 991px) {
 	/* styles here */
 	/* styles here */
-
+	body {
+		min-width: 991px;
+	}
 	.mg_top,
 	.feature-houses,
 	.video_img_sell_info {
@@ -1136,6 +1138,9 @@ background-color: transparent;
 /* Smartphone (landscape) */
 @media only screen and (max-width: 767px) {
 	/* styles here */
+	body {
+		min-width: 767px;
+	}
 	.left_main,
 	.more_articles_left,
 	.more_articles_right,
@@ -1207,7 +1212,10 @@ background-color: transparent;
 }
 
 /* Smartphone (portrait and landscape) */
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 500px) 
+	body {
+  min-width:  500px;
+}
 	.main_section {
 		padding: 0;
 	}
