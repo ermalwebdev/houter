@@ -18,18 +18,7 @@ img {
 	padding: 0;
 	margin: 0;
 }
-html::-webkit-scrollbar {
-	width: 15px;
-}
-html::-webkit-scrollbar-track {
-	background-color: transparent;
-}
-html::-webkit-scrollbar-thumb {
-	background-color: #ccc;
-	border-radius: 8px;
-	border: 3px solid transparent;
-	background-clip: content-box;
-}
+
 body {
 	-webkit-overflow-scrolling: touch;
 	scroll-behavior: smooth;
@@ -965,7 +954,7 @@ background-color: transparent;
 @media only screen and (max-width: 1199px) {
 	/* styles here */
 		body {
-		min-width: 1199px;
+		max-width: 1199px;
 	}
 	.hamburger_icon_container {
 		display: block;
@@ -1066,7 +1055,7 @@ background-color: transparent;
 	/* styles here */
 	/* styles here */
 	body {
-		min-width: 991px;
+		max-width: 991px;
 	}
 	.mg_top,
 	.feature-houses,
@@ -1139,7 +1128,7 @@ background-color: transparent;
 @media only screen and (max-width: 767px) {
 	/* styles here */
 	body {
-		min-width: 767px;
+		max-width: 767px;
 	}
 	.left_main,
 	.more_articles_left,
@@ -1214,7 +1203,7 @@ background-color: transparent;
 /* Smartphone (portrait and landscape) */
 @media only screen and (max-width: 500px) 
 	body {
-  min-width:  500px;
+  max-width:  500px;
 }
 	.main_section {
 		padding: 0;
