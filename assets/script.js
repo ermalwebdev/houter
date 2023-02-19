@@ -19,7 +19,6 @@ const imageVideo = document.querySelector(".image_preview_container");
 // JavaScript Free Hand
 
 // Hamburger Menu
-const scrollbarWidth = document.querySelector("html").offsetWidth - document.querySelector("html").clientWidth;
 
 hamburgerOpenClose.addEventListener("click", function () {
 	if (hamburgerIcon[0].classList.contains("active")) {
@@ -27,14 +26,12 @@ hamburgerOpenClose.addEventListener("click", function () {
 		hamburgerIcon[1].classList.add("active");
 		menuContainer.style.display = "block";
 		document.querySelector("html").style.overflowY = "hidden";
-		document.querySelector("html").style.scrollbarWidth = "scrollbarWidth";
 		document.querySelector("body").style.position = "fixed";
 	} else {
 		hamburgerIcon[1].classList.remove("active");
 		hamburgerIcon[0].classList.add("active");
 		menuContainer.style.display = "none";
 		document.querySelector("html").style.overflowY = "";
-		document.querySelector("body").style.overflow = "";
 		document.querySelector("body").style.position = "";
 	}
 });
