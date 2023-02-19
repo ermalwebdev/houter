@@ -19,7 +19,8 @@ const imageVideo = document.querySelector(".image_preview_container");
 // JavaScript Free Hand
 
 // Hamburger Menu
-const scrollbarWidth = document.html.offsetWidth - document.html.clientWidth;
+const scrollbarWidth = document.querySelector("html").offsetWidth - document.querySelector("html").clientWidth;
+
 hamburgerOpenClose.addEventListener("click", function () {
 	if (hamburgerIcon[0].classList.contains("active")) {
 		hamburgerIcon[0].classList.remove("active");
