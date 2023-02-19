@@ -30,7 +30,7 @@ hamburgerOpenClose.addEventListener("click", function () {
 		hamburgerIcon[1].classList.remove("active");
 		hamburgerIcon[0].classList.add("active");
 		menuContainer.style.display = "none";
-		document.querySelector("body").style.overflow = "";
+		document.querySelector("html").style.overflow = "";
 		document.querySelector("body").style.position = "";
 	}
 });
