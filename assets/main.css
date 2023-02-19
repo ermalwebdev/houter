@@ -19,7 +19,6 @@ img {
 	margin: 0;
 }
 body {
-	overflow-y: scroll;
 	scroll-behavior: smooth;
 	position: relative;
 	margin: 0 auto;
