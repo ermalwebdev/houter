@@ -927,10 +927,7 @@ body {
 
 @media only screen and (max-width: 1440px) {
 	/* styles here */
-	body,
-	html {
-		max-width: 1440px;
-	}
+	
 
 	.subscribe_section {
 		padding: 120px;
@@ -960,7 +957,9 @@ body {
 /* Desktop */
 @media only screen and (max-width: 1199px) {
 	/* styles here */
-
+	body {
+	width: 100vh;
+	}
 	.hamburger_icon_container {
 		display: block;
 		position: relative;
@@ -1203,12 +1202,7 @@ body {
 
 /* Smartphone (portrait and landscape) */
 @media only screen and (max-width: 500px) {
-	html {
-		min-width: 500px;
-	}
-	body {
-		min-width: 100%;
-	}
+	
 	.main_section {
 		padding: 0;
 	}
