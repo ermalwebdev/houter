@@ -26,6 +26,7 @@ hamburgerOpenClose.addEventListener("click", function () {
 		hamburgerIcon[1].classList.add("active");
 		menuContainer.style.display = "block";
 		document.querySelector("html").style.overflowY = "hidden";
+		document.querySelector("html").style.paddingRight = "15px";
 		document.querySelector("body").style.position = "fixed";
 	} else {
 		hamburgerIcon[1].classList.remove("active");
