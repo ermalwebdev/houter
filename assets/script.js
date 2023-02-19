@@ -19,8 +19,6 @@ const imageVideo = document.querySelector(".image_preview_container");
 // JavaScript Free Hand
 
 // Hamburger Menu
-document.querySelector("body").style.position = "inherit";
-document.querySelector("body").style.bottom = "-5023.550px";
 hamburgerOpenClose.addEventListener("click", function () {
 	if (hamburgerIcon[0].classList.contains("active")) {
 		hamburgerIcon[0].classList.remove("active");
