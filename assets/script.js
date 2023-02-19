@@ -31,7 +31,7 @@ hamburgerOpenClose.addEventListener("click", function () {
 		hamburgerIcon[1].classList.remove("active");
 		hamburgerIcon[0].classList.add("active");
 		menuContainer.style.display = "none";
-		document.querySelector("html").style.overflowY = "";
+		document.querySelector("html").style.overflowY = "scroll";
 		document.querySelector("body").style.position = "";
 	}
 });
