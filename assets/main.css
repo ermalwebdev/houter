@@ -27,16 +27,16 @@ body {
 	height: auto;
 }
 body::-webkit-scrollbar {
-	width: 15px;
+	width: 15px !important;
 }
 body::-webkit-scrollbar-track {
-	background-color: transparent;
+	background-color: transparent !important;
 }
 body::-webkit-scrollbar-thumb {
-	background-color: #ccc;
-	border-radius: 8px;
-	border: 3px solid transparent;
-	background-clip: content-box;
+	background-color: #ccc !important;
+	border-radius: 8px !important;
+	border: 3px solid transparent !important;
+	background-clip: content-box !important;
 }
 .fixed-container {
 	width: 88%;
