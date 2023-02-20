@@ -23,7 +23,7 @@ img {
 	margin: 0;
 }
 body {
-	overflow-y: scroll;
+	overflow: hidden;
 	scroll-behavior: smooth;
 	position: relative;
 	margin: 0 auto;
