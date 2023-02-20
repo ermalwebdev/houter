@@ -22,14 +22,16 @@ const isMobile =
 	/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
 		navigator.userAgent
 	);
-
+const isSafari = /apple/i.test(navigator.vendor);
 navBarLinks.forEach(index => {
 	index.addEventListener("click", function (e) {
 		e.preventDefault();
 		const targetId = index.getAttribute("data-scroll-top");
 		const targetPosition = document.querySelector(targetId).offsetTop;
 
-		if (isMobile || window.matchMedia("(max-width: 1200px").matches) {
+		if (isMobile ||
+			isSafari ||
+			window.matchMedia("(max-width: 1200px").matches) {
 			hamburgerIcon[1].classList.remove("active");
 			hamburgerIcon[0].classList.add("active");
 			menuContainer.style.display = "none";
