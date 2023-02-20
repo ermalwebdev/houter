@@ -30,6 +30,8 @@ body {
 	width: 100%;
 	height: auto;
 }
+input {
+	background-color: transparent; }
 .blog_top_left {
 	width: 100%;
 }
