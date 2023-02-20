@@ -53,6 +53,9 @@ body {
 	bottom: 0;
 	right: 0;
 }
+inptu {
+ background-color: transparent;
+}
 .logo_container {
 	display: flex;
 	align-items: center;
