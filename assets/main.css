@@ -23,11 +23,15 @@ img {
 	margin: 0;
 }
 body {
+	overflow: hidden;
 	scroll-behavior: smooth;
 	position: relative;
 	margin: 0 auto;
 	width: 100%;
 	height: auto;
+}
+input {
+background-color: transparent;
 }
 .blog_top_left {
 	width: 100%;
@@ -930,11 +934,7 @@ body {
 
 @media only screen and (max-width: 1440px) {
 	/* styles here */
-	body,
-	html {
-		max-width: 1440px;
-	}
-
+	
 	.subscribe_section {
 		padding: 120px;
 	}
@@ -1206,12 +1206,7 @@ body {
 
 /* Smartphone (portrait and landscape) */
 @media only screen and (max-width: 500px) {
-	html {
-		min-width: 500px;
-	}
-	body {
-		min-width: 100%;
-	}
+	
 	.main_section {
 		padding: 0;
 	}
