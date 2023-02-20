@@ -5,6 +5,7 @@
 }
 html {
 	scroll-behavior: smooth;
+	overflow: scroll;
 }
 h1,
 h2,
